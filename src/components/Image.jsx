@@ -1,4 +1,4 @@
-export default function Header(){
+export default function Image(){
     return(
         <article className="image__layout py-3 py-sm-5">
         <div className="container">
