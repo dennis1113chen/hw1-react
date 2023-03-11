@@ -1,7 +1,7 @@
 import Header from "../components/Header"
 import Image from "../components/Image"
 import Description from "../components/Description"
-import Footer from "../../../../Downloads/react-wk1-hw-main/src/components/Footer"
+import Footer from "../components/Footer"
 import images from "../images.json"
 
 function Home(){

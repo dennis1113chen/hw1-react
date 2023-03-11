@@ -1,18 +1,18 @@
 import styles from "./header.module.css";
+import '../../App.css';
 
 export default function Header({ title, slogan }) {
 
     return (
-        <div className={styles.header}>
-            <h1 className={styles.headerTitle}>
-                {title}
-            </h1>
-
-            <p className={styles.headerSlogan}>
-                {slogan}
-            </p>
-            <hr className={styles.hrHeaderLine} />
-        </div>
+        <header className={styles.header}>
+            <div className="container">
+                <img className={styles.headerAvatar} src="./images/avatar.png" alt="avatar" />
+                <h1 className={styles.headerTitle}>{title}
+                </h1>
+                <hr className={styles.dividerLight} />
+                <p className={styles.headerSlogan}>{slogan}
+                </p>
+            </div>
+        </header>
     );
 }
-
