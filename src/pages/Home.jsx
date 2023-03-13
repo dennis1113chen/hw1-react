@@ -17,7 +17,6 @@ export default function Home(){
             />
             <DescriptionLayout
                 descriptiontitle="DESCRIPTIONS"
-                
             />
             <Footer
                 address="臺北市和平東路二段134號，國立臺北教育大學 數位科技設計學系"
