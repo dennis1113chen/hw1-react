@@ -16,7 +16,6 @@ export default function Home(){
                 images={images}
             />
             <DescriptionLayout
-
                 descriptiontitle="DESCRIPTIONS"
                 descriptioncontent="Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laborum
                 corrupti ut iure aliquam. Quod, perferendis. Libero tempore iste, animi sint numquam illum quasi laboriosam
